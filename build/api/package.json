@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "description": "",
+  "main": "bin/start.js",
+  "scripts": {
+    "start": "node ./bin/start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "9.0.0"
+  },
+  "dependencies": {
+    "jsmoves": "latest"
+  }
+}
