@@ -1,0 +1,7 @@
+where to put:
+
+.start()
+.stop()
+
+how to register presets
+how to install do plugins
