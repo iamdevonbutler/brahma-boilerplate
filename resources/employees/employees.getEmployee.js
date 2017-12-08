@@ -5,6 +5,8 @@ module.exports = {
     'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consequatur iusto quod unde, cum sint voluptatem aspernatur dignissimos iure dolorem voluptas quas eaque quis dolor quae ratione atque. Odio, quisquam.',
     '...',
   ],
+  // cron: '* * * * 40',
+  cron: () => '* * * * 40',
   test() {
 
   },

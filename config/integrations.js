@@ -17,7 +17,7 @@ module.exports = {
   }, // obj or array of obj. adds commands to `new`
   generate: {
     'brahma-generate-resources': '', // adds, and removes shit.
-    'brahma-generate-resources': '',
+    'brahma-generate-decorators': '',
   }, // obj or array of obj. adds commands to `new`
   deploy: {
     heroku: {
