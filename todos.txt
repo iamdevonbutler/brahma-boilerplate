@@ -1,9 +1,6 @@
 /lib/validators
 
-how to include services.
-- custom services
-- npm modules
-- how are they included from other parts of code. e.g. a util requiring a service.
-not all services are created especially for brahmin. exported out of other projects.
-but if they are created the neo way, they benefit from auto testing
-and there are npm modules that are services.
+write some middleware
+write some decorators
+write some integrations
+- each type
