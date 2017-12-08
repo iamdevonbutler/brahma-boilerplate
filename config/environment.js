@@ -1,4 +1,4 @@
-module.exports = (config) => ({
+module.exports = ({apps}) => ({
   api: {
     development: {
       PORT: { value: 'localhost:3000', overwrite: false },
