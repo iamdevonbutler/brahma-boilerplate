@@ -7,7 +7,7 @@ module.exports = (env) => {
   return {
     api: {
       ...common,
-      https,
+      http: true,
       mongorules: {
         defaultConnectionName: 'a',
         defaultDatabaseName: 'a',
