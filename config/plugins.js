@@ -1,17 +1,10 @@
-// @todo exactly how we handle multiple plugins is a todo
-// and it can be different for each item
-// @todo can do requires exactly like that. where would it install?
-// @todo this should be a updateLatestPlugins thing.
-//
-// how do u install all this shit.
-//
-module.exports = {
-  commands: {
-    'bramha-command-git': '', // would be cool if someone made some auto git shit.
-  },
-  helpers: {
-    'brahma-helpers-extrahelpers': 'latest',
-  }, // obj or array of obj. adds commands to `helpers`
+module.exports = ({load}) => {
+  helper: [
+    {src: load.plugins('helpers')},
+  ],
+  commands: [
+    {name: 'brahma-command-watch', user: 'iamdevonbutler', source: 'git', version: '*', options: {}}
+  ],
   new: {
     'brahma-new-airbnb': '',
   }, // obj or array of obj. adds commands to `new`
@@ -51,15 +44,7 @@ module.exports = {
   staticAnalysis: {
     'brahma-plugin-usestrict': '', // @todo what are the stages that call this. test and build. is that it?
   }, // currently no use cases for this.
+  build: {
+    'brahma-plugin-humans': '',
+  }
 };
-
-// Integration types
-// plugin
-// app
-// database
-// middleware?
-// ...
-
-// A plugin implements a certain kind of interface.
-// to classify waht a plugin and whats an app and whats other shit
-// just see what needs what interface.
