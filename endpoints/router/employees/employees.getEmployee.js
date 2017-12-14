@@ -9,8 +9,8 @@ module.exports = {
     return $main.call(null);
   },
   cron: '* * * * 40',
-  main() {
-
+  main({env}) {
+    env.get('key');
   },
   http() {
 
