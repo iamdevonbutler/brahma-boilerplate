@@ -2,7 +2,7 @@ const common = {
 
 };
 
-module.exports = (env) => ({
+module.exports = ({settings}) => ({
   api: {
     ...common,
   },

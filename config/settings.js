@@ -7,16 +7,7 @@ module.exports = {
   nodeVersion: '9.0.0',
   openGenertedInAtom: true,
   openGenertedInSublime: false,
-  commands: {
-    status: {
-      pre() {},
-      post() {},
-      addCommand({add, addMultiple, helpers}) {
-        add({
-          name: '',
-          main: helpers.call('eol')
-        });
-      },
-    }
-  }
+  remoteErrorHandling: { // @todo how to update remote if this value is changed.
+    notify: ['j@example.com'], // last try catch / uncaught exception emailer.
+  },
 };

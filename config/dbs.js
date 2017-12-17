@@ -1,4 +1,4 @@
-module.exports = ({load}) => ({
+module.exports = ({settings, variables, env, apps, remote}) => ({
   register: [{
     command: 'import',
     name: dbName,
