@@ -3,6 +3,7 @@ module.exports = {
   require: {
     path: 'path'
   },
+  // export can be a func that returns an obj or array or a obj or array
   export({load}) {
     return {
       'google.api.key': load.resource('config/google').apiKey,
