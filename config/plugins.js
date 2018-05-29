@@ -1,4 +1,4 @@
-module.exports = ({settings, variables, env, apps, remote, dbs, load}) => {
+module.exports = ({settings, variables, env, apps, remote, dbs, load}) => ({
   helper: [
     {src: load.plugins('helpers')},
   ],
@@ -47,4 +47,4 @@ module.exports = ({settings, variables, env, apps, remote, dbs, load}) => {
   build: {
     'brahma-plugin-humans': '',
   }
-};
+});

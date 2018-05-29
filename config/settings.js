@@ -10,4 +10,5 @@ module.exports = {
   remoteErrorHandling: { // @todo how to update remote if this value is changed.
     notify: ['j@example.com'], // last try catch / uncaught exception emailer.
   },
+  'cli.verbose': true,
 };

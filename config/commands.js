@@ -5,7 +5,7 @@ module.exports = ({load}) => ({
     'npmmodule': load.npm('npmmodule'),
     'rabbit': load.resource('commands/rabbit'), // ! need to be able to load using realtive paths too.
   },
-  commands: ({rabbit, search}) => ([
+  commands: ({}, {rabbit, search}) => ([
     rabbit,
     search,
   ]),

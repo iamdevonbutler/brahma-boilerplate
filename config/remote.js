@@ -8,14 +8,14 @@ module.exports = ({settings, variables, env, apps}) => ({
           nodes: 2,
           region: '', // wants an ID
           os: '', // wants and id
-          size: '' // id
+          size: '', // id
           ipv6: true,
           name: 'brahma-stage-router', // ubuntu-2gb-nyc3-01
           backups: true,
           proxy: {
             // proxy will inherit parents
             region: '',
-            os: ''
+            os: '',
             size: '',
             ipv6: true,
             name: '',
